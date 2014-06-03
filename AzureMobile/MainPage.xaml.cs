@@ -14,11 +14,12 @@ namespace AzureMobile
 {
     public partial class MainPage : PhoneApplicationPage
     {
-        // Constructor
+        //TODO Use Your Application url and key Here
         public static MobileServiceClient MobileService = new MobileServiceClient(
-            "https://atsservice.azure-mobile.net/",
-            "GfPDECBNvuGzwGBRttWhfbBZBGlGyv10"
+            "UrlGivenByAzure",
+            "ApplicationKeyGivenByAzure"
         );
+        // Constructor
         public MainPage()
         {
             InitializeComponent();
